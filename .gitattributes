@@ -1,0 +1,13 @@
+# Mark all files as Dart
+*.* linguist-language=Dart
+
+# Explicitly mark Dart files
+*.dart linguist-detectable=true
+
+# Hide other languages
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cmake linguist-detectable=false
+*.swift linguist-detectable=false
+*.c linguist-detectable=false
+*.html linguist-detectable=false
