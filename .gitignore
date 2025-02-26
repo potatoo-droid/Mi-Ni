@@ -150,3 +150,36 @@ app.*.symbols
 .python-version
 .gclient_previous_custom_vars
 .gclient_previous_sync_commits
+
+
+# Ignore C, C++, and C# files
+*.c
+*.h
+*.cpp
+*.cc
+*.cxx
+*.hpp
+*.cs
+
+# Ignore CMake files
+CMakeLists.txt
+*.cmake
+
+# Ignore build and compiled files
+build/
+bin/
+obj/
+
+# Flutter/Dart specific
+.dart_tool/
+.build/
+.pub/
+.idea/
+*.iml
+.android/
+.ios/
+linux/
+macos/
+windows/
+web/
+firebase/
